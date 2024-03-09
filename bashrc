@@ -113,6 +113,7 @@ if ! shopt -oq posix; then
 fi
 
 # Lineas agregadas por Mikiztly para tener mas comodo debian con colores y comandos personalizados
+# Con esto podemos incluir muchos comandos
 export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
+# con el comando "dir" se mostrara una lista con detalles junto con los archivos ocultos y los directorios finalizaran en /
 alias dir='ls -lhaF'
-
