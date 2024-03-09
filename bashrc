@@ -112,6 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Lineas agregadas por Mikiztly para tener mas comodo debian con colores y comandos personalizados
 export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
 alias dir='ls -lhaF'
 
